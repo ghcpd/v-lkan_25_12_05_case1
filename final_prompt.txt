@@ -1,0 +1,1 @@
+Read repo_metadata.jsonl line by line.For each line, extract the value of the repo field. Group all records that share the same repo into their own JSONL file. Save each grouped file into an output directory, using the repo name as the filename, with every / replaced by __ to ensure it is a valid file path.
